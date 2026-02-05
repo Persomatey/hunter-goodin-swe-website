@@ -169,10 +169,12 @@ function ChangeImagePortfolioAllProjects()
 	document.getElementById("ButPortfolio1").className = "buttonNewSelected";
 
 	let ids = [
+		"cobalt",
 		"unityinputdevicechecker",
 		"unitypackagescicd",
 		"unitycicd",
 		"magicalgirl",
+		"pearl",
 		"dracdef", 
 		"spellslinger",
 		"roguerealms",
@@ -219,7 +221,9 @@ function ChangeImagePortfolioAllVideoGames()
 	document.getElementById("ButPortfolio2").className = "buttonNewSelected";
 
 	let ids = [
+		"cobalt",
 		"magicalgirl",
+		"pearl",
 		"dracdef", 
 		"spellslinger",
 		"roguerealms",
@@ -263,6 +267,8 @@ function ChangeImagePortfolioUnityGames()
 	document.getElementById("ButPortfolio3").className = "buttonNewSelected";
 
 	let ids = [
+		"cobalt", 
+		"pearl", 
 		"dracdef", 
 		"roguerealms",
 		"horrorseries",
