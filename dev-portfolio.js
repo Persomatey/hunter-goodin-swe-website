@@ -161,6 +161,295 @@ function AfterSend()
 
 // #endregion Google Captcha Stuff
 
+// #region Portfolio Functions
+
+function ChangeImagePortfolioAllProjects()
+{
+	UnselectAllButtons(`Portfolio`, 8);
+	document.getElementById("ButPortfolio1").className = "buttonNewSelected";
+
+	let ids = [
+		"unityinputdevicechecker",
+		"unitypackagescicd",
+		"unitycicd",
+		"magicalgirl",
+		"dracdef", 
+		"spellslinger",
+		"roguerealms",
+		"horrorseries",
+		"carn",
+		"skyjel", 
+		"apollo",
+		"jsonserializerplugin",
+		"dua",
+		"cryptoalertbot",
+		"funem", 
+		"musicchan",
+		"keyfinder",
+		"helation",
+		"rewoundrunningremix",
+		"legendoffantasy", 
+		"spaceshooter9000",
+		"factory",
+		"codblops3" 
+	];
+
+	let str = ""; 
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		str += `<div id="${ids[i]}"></div>`; 
+
+		if (i != ids.length - 1)
+		{
+			str += `<hr/>`; 
+		}
+	}
+
+	document.getElementById("loadedprojects").innerHTML = str;
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		LoadProject(ids[i])
+	}
+}
+function ChangeImagePortfolioAllVideoGames()
+{
+	UnselectAllButtons(`Portfolio`, 8);
+	document.getElementById("ButPortfolio2").className = "buttonNewSelected";
+
+	let ids = [
+		"magicalgirl",
+		"dracdef", 
+		"spellslinger",
+		"roguerealms",
+		"horrorseries",
+		"carn",
+		"skyjel", 
+		"apollo",
+		"dua",
+		"funem", 
+		"keyfinder",
+		"helation",
+		"rewoundrunningremix",
+		"legendoffantasy", 
+		"spaceshooter9000",
+		"factory",
+		"codblops3" 
+	];
+
+	let str = ""; 
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		str += `<div id="${ids[i]}"></div>`; 
+
+		if (i != ids.length - 1)
+		{
+			str += `<hr/>`; 
+		}
+	}
+
+	document.getElementById("loadedprojects").innerHTML = str;
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		LoadProject(ids[i])
+	}
+}
+function ChangeImagePortfolioUnityGames()
+{
+	UnselectAllButtons(`Portfolio`, 8);
+	document.getElementById("ButPortfolio3").className = "buttonNewSelected";
+
+	let ids = [
+		"dracdef", 
+		"roguerealms",
+		"horrorseries",
+		"carn",
+		"skyjel", 
+		"apollo",
+		"dua",
+		"funem", 
+		"rewoundrunningremix",
+		"legendoffantasy", 
+		"spaceshooter9000",
+		"factory"
+	];
+
+	let str = ""; 
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		str += `<div id="${ids[i]}"></div>`; 
+
+		if (i != ids.length - 1)
+		{
+			str += `<hr/>`; 
+		}
+	}
+
+	document.getElementById("loadedprojects").innerHTML = str;
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		LoadProject(ids[i])
+	}
+}
+function ChangeImagePortfolioUnrealGames()
+{
+	UnselectAllButtons(`Portfolio`, 8);
+	document.getElementById("ButPortfolio4").className = "buttonNewSelected";
+
+	let ids = [
+		"spellslinger",
+		"dua",
+		"keyfinder",
+		"helation"
+	];
+
+	let str = ""; 
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		str += `<div id="${ids[i]}"></div>`; 
+
+		if (i != ids.length - 1)
+		{
+			str += `<hr/>`; 
+		}
+	}
+
+	document.getElementById("loadedprojects").innerHTML = str;
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		LoadProject(ids[i])
+	}
+}
+function ChangeImagePortfolioOtherGames()
+{
+	UnselectAllButtons(`Portfolio`, 8);
+	document.getElementById("ButPortfolio5").className = "buttonNewSelected";
+
+	let ids = [
+		"magicalgirl",
+		"dua",
+		"codblops3" 
+	];
+
+	let str = ""; 
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		str += `<div id="${ids[i]}"></div>`; 
+
+		if (i != ids.length - 1)
+		{
+			str += `<hr/>`; 
+		}
+	}
+
+	document.getElementById("loadedprojects").innerHTML = str;
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		LoadProject(ids[i])
+	}
+}
+function ChangeImagePortfolioUnityPackages()
+{
+	UnselectAllButtons(`Portfolio`, 8);
+	document.getElementById("ButPortfolio6").className = "buttonNewSelected";
+
+	let ids = [
+		"unityinputdevicechecker",
+		"unitypackagescicd",
+		"unitycicd",
+		"jsonserializerplugin"
+	];
+
+	let str = ""; 
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		str += `<div id="${ids[i]}"></div>`; 
+
+		if (i != ids.length - 1)
+		{
+			str += `<hr/>`; 
+		}
+	}
+
+	document.getElementById("loadedprojects").innerHTML = str;
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		LoadProject(ids[i])
+	}
+}
+function ChangeImagePortfolioDiscordBots()
+{
+	UnselectAllButtons(`Portfolio`, 8);
+	document.getElementById("ButPortfolio7").className = "buttonNewSelected";
+
+	let ids = [
+		"cryptoalertbot",
+		"musicchan"
+	];
+
+	let str = ""; 
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		str += `<div id="${ids[i]}"></div>`; 
+
+		if (i != ids.length - 1)
+		{
+			str += `<hr/>`; 
+		}
+	}
+
+	document.getElementById("loadedprojects").innerHTML = str;
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		LoadProject(ids[i])
+	}
+}
+function ChangeImagePortfolioXRLBE()
+{
+	UnselectAllButtons(`Portfolio`, 8);
+	document.getElementById("ButPortfolio8").className = "buttonNewSelected";
+
+	let ids = [
+		"carn",
+		"apollo",
+		"dua"
+	];
+
+	let str = ""; 
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		str += `<div id="${ids[i]}"></div>`; 
+
+		if (i != ids.length - 1)
+		{
+			str += `<hr/>`; 
+		}
+	}
+
+	document.getElementById("loadedprojects").innerHTML = str;
+
+	for (let i = 0; i < ids.length; i++) 
+	{
+		LoadProject(ids[i])
+	}
+}
+
+// #endregion Portfolio Functions
+
 // #region New Project Functions
 
 function ChangeImageNewL()

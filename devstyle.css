@@ -179,6 +179,14 @@ hr
 	/*background-color:orange;*/
 }
 
+.columnportfoliobtns
+{
+	padding-top: 0%;
+	float: left; 
+	width: 60%;
+	/*background-color:orange;*/
+}
+
 .columngameimg
 {
 	padding-top: 2%;
@@ -456,7 +464,7 @@ input[type=submit]:hover
 .buttonNewSelected 
 {
 	border: none;
-	color: #88f5be;
+	color: white;
 	padding: 5px 10px;
 	text-align: center;
 	text-decoration: none;
@@ -464,7 +472,7 @@ input[type=submit]:hover
 	font-size: 16px;
 	margin: 4px 2px;
 	cursor: pointer;
-	background-color: #0f7944; 
+	background-color: #353535; 
 	border-radius: 14px;
 }
 

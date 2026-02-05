@@ -8,108 +8,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
-	<body style="background-color: #53616f;" ></body>
+	<body style="background-color: #53616f;" >
 
 		<!-- Header -->
 		<script type="text/javascript">LoadHeader("portfolio")</script>
 		<div id="header"></div>
 
-		<!-- Project 
-		<script type="text/javascript">LoadProject("newproject")</script>
-		<div id="newproject"></div>
-		-->
+		<!-- Buttons -->
+		<div class="row">
+			<div class="columnside">
+				<p></p>
+			</div>
+			<div class="columnportfoliobtns">
+				<button id="ButPortfolio1" class="buttonNewSelected" onclick="ChangeImagePortfolioAllProjects();" style="font-size:0.9vw;">All Projects</button>
+				<button id="ButPortfolio2" class="buttonUnselected" onclick="ChangeImagePortfolioAllVideoGames();" style="font-size:0.9vw;">All Video Games</button>
+				<button id="ButPortfolio3" class="buttonUnselected" onclick="ChangeImagePortfolioUnityGames();" style="font-size:0.9vw;">Unity Engine Games</button>
+				<button id="ButPortfolio4" class="buttonUnselected" onclick="ChangeImagePortfolioUnrealGames();" style="font-size:0.9vw;">Unreal Engine Games</button>
+				<button id="ButPortfolio5" class="buttonUnselected" onclick="ChangeImagePortfolioOtherGames();" style="font-size:0.9vw;">Other Games</button>
+				<button id="ButPortfolio6" class="buttonUnselected" onclick="ChangeImagePortfolioUnityPackages();" style="font-size:0.9vw;">Unity Packages & Tools</button>
+				<button id="ButPortfolio7" class="buttonUnselected" onclick="ChangeImagePortfolioDiscordBots();" style="font-size:0.9vw;">Discord Bots</button>
+				<button id="ButPortfolio8" class="buttonUnselected" onclick="ChangeImagePortfolioXRLBE();" style="font-size:0.9vw;">XR & LBE Projects</button>
+			</div>
+			<div class="columnside">
+		  		<p></p>
+		  	</div>
+		</div>
 
-		<!-- Unity Input Device Checker System Package -->
-		<script type="text/javascript">LoadProject("unityinputdevicechecker")</script>
-		<div id="unityinputdevicechecker"></div>
-
-		<!-- Unity Package CI/CD System Repository Template -->
-		<script type="text/javascript">LoadProject("unitypackagescicd")</script>
-		<div id="unitypackagescicd"></div>
-
-		<!-- Unity CI/CD System Repository Template -->
-		<script type="text/javascript">LoadProject("unitycicd")</script>
-		<div id="unitycicd"></div>
-
-		<!-- Saffia's Magically Miserable 9-5 -->
-		<script type="text/javascript">LoadProject("magicalgirl")</script>
-		<div id="magicalgirl"></div>
-		
-		<!-- Dracnic Defenders --> 
-		<script type="text/javascript">LoadProject("dracdef")</script>
-		<div id="dracdef"></div>
-
-		<!-- Spellslinger -->
-		<script type="text/javascript">LoadProject("spellslinger")</script>
-		<div id="spellslinger"></div>
-
-		<!-- Rogue Realms -->
-		<script type="text/javascript">LoadProject("roguerealms")</script>
-		<div id="roguerealms"></div>
-		
-		<!-- Horror Series -->
-		<script type="text/javascript">LoadProject("horrorseries")</script>
-		<div id="horrorseries"></div>
-
-		<!-- Carnival -->
-		<script type="text/javascript">LoadProject("carn")</script>
-		<div id="carn"></div>
-
-		<!-- Sky Jellies -->
-		<script type="text/javascript">LoadProject("skyjel")</script>
-		<div id="skyjel"></div>
-
-		<!-- Apollo -->
-		<script type="text/javascript">LoadProject("apollo")</script>
-		<div id="apollo"></div>
-
-		<!-- Unity JSON Serializer Plugin -->
-		<script type="text/javascript">LoadProject("jsonserializerplugin")</script>
-		<div id="jsonserializerplugin"></div>
-
-		<!-- Disney's Uncharted Adventure -->
-		<script type="text/javascript">LoadProject("dua")</script>
-		<div id="dua"></div>
-
-		<!-- Crypto Alert Bot -->
-		<script type="text/javascript">LoadProject("cryptoalertbot")</script>
-		<div id="cryptoalertbot"></div>
-
-		<!-- Funem -->
-		<script type="text/javascript">LoadProject("funem")</script>
-		<div id="funem"></div>
-
-		<!-- Music Bot -->
-		<script type="text/javascript">LoadProject("musicchan")</script>
-		<div id="musicchan"></div>
-
-		<!-- Key Finder -->
-		<script type="text/javascript">LoadProject("keyfinder")</script>
-		<div id="keyfinder"></div>
-
-		<!-- Helation -->
-		<script type="text/javascript">LoadProject("helation")</script>
-		<div id="helation"></div>
-
-		<!-- Rewound Running Remix -->
-		<script type="text/javascript">LoadProject("rewoundrunningremix")</script>
-		<div id="rewoundrunningremix"></div>
-
-		<!-- Legend of Fantasy -->
-		<script type="text/javascript">LoadProject("legendoffantasy")</script>
-		<div id="legendoffantasy"></div>
-
-		<!-- Space Shooter 9000 -->
-		<script type="text/javascript">LoadProject("spaceshooter9000")</script>
-		<div id="spaceshooter9000"></div>
-
-		<!-- Factory -->
-		<script type="text/javascript">LoadProject("factory")</script>
-		<div id="factory"></div>
-
-		<!-- Black Ops III -->
-		<script type="text/javascript">LoadProject("codblops3")</script>
-		<div id="codblops3"></div>
+		<!-- Load Projects -->
+		<div id="loadedprojects"></div>
+		<script type="text/javascript">ChangeImagePortfolioAllProjects()</script>
 
 	</body>
 </html>
