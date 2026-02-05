@@ -191,6 +191,36 @@ function ChangeImageNewVid()
 
 // #endregion New Project Functions
 
+// #region Saffia's Magically Miserable 9-5 Functions
+
+function ChangeImageSMML()
+{
+	UnselectAllButtons(`SMM`, 3);
+	document.getElementById("ButSMM1").className = "buttonSMMSelected";
+	document.getElementById("SMMMedia").innerHTML = `<img style="width:20vw; height:20vw; object-fit:contain; margin-left:auto; margin-right:auto;" src="./images/devphotos/SMM-Logo.png">`; 
+}
+function ChangeImageSMMI1()
+{
+	UnselectAllButtons(`SMM`, 3);
+	document.getElementById("ButSMM2").className = "buttonSMMSelected";
+	document.getElementById("SMMMedia").innerHTML = `<input type="image" id="imageKey" style="width:20vw; height:20vw; object-fit:contain; margin-left:auto; margin-right:auto;" src="./images/devphotos/SMM-Gameplay1.png" onclick="OpenModal(false, 'images/devphotos/SMM-Gameplay1.png');">`; 
+}
+function ChangeImageSMMI2()
+{
+	UnselectAllButtons(`SMM`, 3);
+	document.getElementById("ButSMM3").className = "buttonSMMSelected";
+	document.getElementById("SMMMedia").innerHTML = `<input type="image" id="imageKey" style="width:20vw; height:20vw; object-fit:contain; margin-left:auto; margin-right:auto;" src="./images/devphotos/SMM-Gameplay2.png" onclick="OpenModal(false, 'images/devphotos/SMM-Gameplay2.png');">`; 
+}
+function ChangeImageSMMVid() // Not using this one since I don't have a video yet 
+{
+	UnselectAllButtons(`SMM`, 3);
+	document.getElementById("ButSMM4").className = "buttonSMMSelected";
+	document.getElementById("SMMMedia").innerHTML = `<input type="image" id="imageKey" style="width:20vw; height:20vw; object-fit:cover; margin-left:auto; margin-right:auto;" src="./images/devphotos/FunThumb.png" onclick="OpenModal(true, 'QUR4Pki2UoU');">`; 
+
+}
+
+// #endregion Saffia's Magically Miserable 9-5 Functions
+
 // #region Horror Series Functions
 
 function ChangeImageHSL()
