@@ -150,6 +150,14 @@ img
 	padding-left: 0px;
 }
 
+.img_portfolio
+{
+	height:10vw; 
+	object-fit:contain; 
+	margin-left:auto; 
+	margin-right:auto;
+}
+
 hr 
 {
 	width: 60%;
@@ -181,10 +189,7 @@ hr
 
 .columnportfoliobtns
 {
-	padding-top: 0%;
-	float: left; 
-	width: 60%;
-	/*background-color:orange;*/
+
 }
 
 .columngameimg
@@ -231,6 +236,14 @@ hr
 	{
 		width: 60%;
 	}
+
+	.columnportfoliobtns
+	{
+		padding-top: 0%;
+		float: left; 
+		width: 60%;
+		/*background-color:orange;*/
+	}
 }
 
 @media (orientation: portrait) 
@@ -258,6 +271,14 @@ hr
 	hr
 	{
 		width: 80%;
+	}
+
+	.columnportfoliobtns
+	{
+		padding-top: 0%;
+		float: left; 
+		width: 80%;
+		/*background-color:orange;*/
 	}
 }
 
