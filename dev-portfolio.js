@@ -163,7 +163,7 @@ function AfterSend()
 
 // #region Portfolio Functions
 
-function ChangeImagePortfolioAllProjects()
+function FilterPortfolioAllProjects()
 {
 	UnselectAllButtons(`Portfolio`, 8);
 	document.getElementById("ButPortfolio1").className = "buttonNewSelected";
@@ -215,7 +215,7 @@ function ChangeImagePortfolioAllProjects()
 		LoadProject(ids[i])
 	}
 }
-function ChangeImagePortfolioAllVideoGames()
+function FilterPortfolioAllVideoGames()
 {
 	UnselectAllButtons(`Portfolio`, 8);
 	document.getElementById("ButPortfolio2").className = "buttonNewSelected";
@@ -261,7 +261,7 @@ function ChangeImagePortfolioAllVideoGames()
 		LoadProject(ids[i])
 	}
 }
-function ChangeImagePortfolioUnityGames()
+function FilterPortfolioUnityGames()
 {
 	UnselectAllButtons(`Portfolio`, 8);
 	document.getElementById("ButPortfolio3").className = "buttonNewSelected";
@@ -302,7 +302,7 @@ function ChangeImagePortfolioUnityGames()
 		LoadProject(ids[i])
 	}
 }
-function ChangeImagePortfolioUnrealGames()
+function FilterPortfolioUnrealGames()
 {
 	UnselectAllButtons(`Portfolio`, 8);
 	document.getElementById("ButPortfolio4").className = "buttonNewSelected";
@@ -333,7 +333,7 @@ function ChangeImagePortfolioUnrealGames()
 		LoadProject(ids[i])
 	}
 }
-function ChangeImagePortfolioOtherGames()
+function FilterPortfolioOtherGames()
 {
 	UnselectAllButtons(`Portfolio`, 8);
 	document.getElementById("ButPortfolio5").className = "buttonNewSelected";
@@ -363,7 +363,7 @@ function ChangeImagePortfolioOtherGames()
 		LoadProject(ids[i])
 	}
 }
-function ChangeImagePortfolioUnityPackages()
+function FilterPortfolioUnityPackages()
 {
 	UnselectAllButtons(`Portfolio`, 8);
 	document.getElementById("ButPortfolio6").className = "buttonNewSelected";
@@ -394,7 +394,7 @@ function ChangeImagePortfolioUnityPackages()
 		LoadProject(ids[i])
 	}
 }
-function ChangeImagePortfolioDiscordBots()
+function FilterPortfolioDiscordBots()
 {
 	UnselectAllButtons(`Portfolio`, 8);
 	document.getElementById("ButPortfolio7").className = "buttonNewSelected";
@@ -423,7 +423,7 @@ function ChangeImagePortfolioDiscordBots()
 		LoadProject(ids[i])
 	}
 }
-function ChangeImagePortfolioXRLBE()
+function FilterPortfolioXRLBE()
 {
 	UnselectAllButtons(`Portfolio`, 8);
 	document.getElementById("ButPortfolio8").className = "buttonNewSelected";

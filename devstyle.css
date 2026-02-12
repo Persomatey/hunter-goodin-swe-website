@@ -386,6 +386,36 @@ input[type=submit]:hover
 
 /* Custom Button Stuff */
 
+.buttonNewSelected 
+{
+	border: none;
+	color: black;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #13C5ED; 
+	border-radius: 14px;
+}
+
+.buttonUnselected
+{
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #112788; 
+	border-radius: 3px;
+}
+
 .buttonDDSelected 
 {
 	border: none;
@@ -458,21 +488,6 @@ input[type=submit]:hover
 	margin: 4px 2px;
 	cursor: pointer;
 	background-color: #024466; 
-	border-radius: 14px;
-}
-
-.buttonNewSelected 
-{
-	border: none;
-	color: white;
-	padding: 5px 10px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	background-color: #353535; 
 	border-radius: 14px;
 }
 
@@ -669,21 +684,6 @@ input[type=submit]:hover
 	cursor: pointer;
 	background-color: #195195; 
 	border-radius: 14px;
-}
-
-.buttonUnselected
-{
-	border: none;
-	color: white;
-	padding: 5px 10px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	background-color: grey; 
-	border-radius: 3px;
 }
 
 /* Other */
