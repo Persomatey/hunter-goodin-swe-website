@@ -169,6 +169,7 @@ function FilterPortfolioAllProjects()
 	document.getElementById("ButPortfolio1").className = "buttonNewSelected";
 
 	let ids = [
+		"trellocolext",
 		"cobalt",
 		"unityinputdevicechecker",
 		"unitypackagescicd",
